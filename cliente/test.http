@@ -1,0 +1,52 @@
+GET http://localhost:3500/api/estudiantes
+
+###
+
+POST http://localhost:3500/api/estudiantes
+Content-Type: application/json
+
+{"nombre":"Pablo Marmol",
+"correo":"correo3",
+"materias":{
+    "nombre":"Matematicas",
+    "nota":9,
+    "comentario":"Bien"
+}}
+
+###
+PUT http://localhost:3500/api/estudiantes/62c8fcd300f0f439065e0ba8
+Content-Type: application/json
+
+{"correo":"correo@hotmail.com"}
+
+###
+DELETE http://localhost:3500/api/estudiantes/62c96f9d86a39ca7ef8dc092
+
+#####
+
+GET http://localhost:3500/api/materias/62ca3f99efbc3827c24ebbae
+
+####
+
+POST http://localhost:3500/api/materias/62ca3f99efbc3827c24ebbae
+Content-Type: application/json
+
+{
+    "nombre":"Geografia",
+    "nota":2,
+    "comentario":"No sabe ni donde vive"
+}
+
+####
+
+DELETE http://localhost:3500/api/materias/62ca3f99efbc3827c24ebbae/62ca520833f61e39d25b7dc6
+
+###
+
+PUT http://localhost:3500/api/materias/62ca3f99efbc3827c24ebbae/62ca3f99efbc3827c24ebbaf
+Content-Type: application/json
+
+{
+    "nota":10,
+    "comentario":"Mejoro la performance"
+}
