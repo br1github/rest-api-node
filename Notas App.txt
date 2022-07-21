@@ -1,0 +1,36 @@
+- Codigo en ingles  *
+
+- Linting *
+https://www.freecodecamp.org/espanol/news/que-es-linting-y-eslint/
+Errores de linteo, no deploya automatico si tiene esos tipos de error
+
+- Comparar repo con codigo en visual
+Comparar local (source) con git 
+Git status por consola
+
+- agregar un componente service capa intermedia  *
+agregar logica de llamar a otra api externa (inventar logica, por ejemplo para validar los datos de una persona por ejemplo https://openlibrary.org/developers/api  wrapper)
+segun la respuesta de la api original agregar una transformacion (manipular el res de la api y retornarlo modificado)
+AXIOS o GOT
+
+- midle de validaciones para sacar las validaciones del codigo
+
+- utils con validacion de errores (Error handler)  *
+callback, promises and async await
+https://expressjs.com/en/guide/error-handling.html
+
+- Validar contratos 
+validar payload de una api
+JOI libreria / ClassValidator 
+Fastify validacion de contratos usando schemas
+
+- (Hacer la misma aplicacion con typescript) ** Node ts / Fastyfy
+https://nestjs.com/ (Opcional no lo usan en NX)
+https://www.fastify.io/docs/latest/Reference/TypeScript/
+https://www.youtube.com/watch?v=WHV57q6p3Lk
+
+- Dockerizar la app  *
+https://medium.com/featurepreneur/a-guide-to-dockerize-your-node-js-application-c24b5e129995
+
+
+
